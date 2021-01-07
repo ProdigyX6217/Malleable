@@ -62,8 +62,8 @@
 				4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */,
 				4DA01CE725A6A707002FFD80 /* ViewController.swift */,
 				4DA01CE925A6A707002FFD80 /* Main.storyboard */,
-				4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */,
 				4DA01CF125A6A70A002FFD80 /* LaunchScreen.storyboard */,
+				4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */,
 				4DA01CF425A6A70A002FFD80 /* Info.plist */,
 				4DA01CEC25A6A707002FFD80 /* Malleable.xcdatamodeld */,
 			);

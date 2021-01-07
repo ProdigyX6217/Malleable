@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DKi-QN-aD6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Clf-hc-lnN">
+            <objects>
+                <tabBarController id="DKi-QN-aD6" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BX4-tC-jRc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Cf2-K5-kh2" kind="relationship" relationship="viewControllers" id="NWH-MS-Wp6"/>
+                        <segue destination="Z5M-6M-20t" kind="relationship" relationship="viewControllers" id="hxc-Kv-9Fq"/>
+                        <segue destination="xqW-Pi-b0L" kind="relationship" relationship="viewControllers" id="fIG-z2-V2i"/>
+                        <segue destination="0Hr-fS-sC9" kind="relationship" relationship="viewControllers" id="eEO-pX-WhN"/>
+                        <segue destination="JOv-0x-4UN" kind="relationship" relationship="viewControllers" id="Cel-Xw-6IC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AeC-WR-5xg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2971" y="-623"/>
+        </scene>
+        <!--Calorie Counter-->
+        <scene sceneID="3lV-QB-TCv">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTo-dT-QAz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="Z5M-6M-20t" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Calorie Counter" id="HpC-dX-bhQ">
+                        <imageReference key="image" image="gauge" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QxE-mX-OZG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pBg-Dk-Q1h" kind="relationship" relationship="rootViewController" id="CDG-YU-hb5"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-2971" y="294"/>
+        </scene>
+        <!--Calorie Counter-->
+        <scene sceneID="suo-ca-Txr">
+            <objects>
+                <viewController id="pBg-Dk-Q1h" customClass="ViewController" customModule="Malleable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sty-9H-f2x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HM-Ng-eZp">
+                                <rect key="frame" x="142" y="312" width="130" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didTapButton" destination="pBg-Dk-Q1h" eventType="touchUpInside" id="Lr2-0V-dth"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CRj-Vf-DCB"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calorie Counter" id="FhJ-8T-90F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRk-ul-zKa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2971.0144927536235" y="1143.75"/>
+        </scene>
+        <!--Barcode Scanner-->
+        <scene sceneID="mwh-wb-h8a">
+            <objects>
+                <navigationController id="xqW-Pi-b0L" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Barcode Scanner" id="sw7-Ca-jEV">
+                        <imageReference key="image" image="barcode" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="N0G-nV-mUZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ME5-pn-KPY" kind="relationship" relationship="rootViewController" id="Aei-sJ-GNa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6E-b6-hTB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2145" y="294"/>
+        </scene>
+        <!--Recipe Database-->
+        <scene sceneID="GPg-uZ-fbh">
+            <objects>
+                <navigationController id="0Hr-fS-sC9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Recipe Database" image="list.bullet.below.rectangle" catalog="system" id="pvB-5z-gUm"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W8p-Rv-RAn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dfx-jl-Q9d" kind="relationship" relationship="rootViewController" id="Ioz-FW-5km"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="szg-ro-wpd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1294" y="294"/>
+        </scene>
+        <!--User Profile-->
+        <scene sceneID="vv0-2G-4eD">
+            <objects>
+                <navigationController id="JOv-0x-4UN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="User Profile" id="F2n-Nj-TqH">
+                        <imageReference key="image" image="person.fill" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e6p-xw-Wvd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Jly-IH-w7j" kind="relationship" relationship="rootViewController" id="BDv-h6-Qsa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1mN-5Y-Kzt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="293"/>
+        </scene>
+        <!--Food Diary-->
+        <scene sceneID="fze-wD-e4d">
+            <objects>
+                <tableViewController id="gw4-bn-T0m" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Atc-sn-Wwu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Table" id="dNG-Rx-bOZ">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dNG-Rx-bOZ" id="vBU-aY-Vh4">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gw4-bn-T0m" id="E3j-qi-9fA"/>
+                            <outlet property="delegate" destination="gw4-bn-T0m" id="58Z-py-dBf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Food Diary" id="6GV-cK-J2I"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEj-Fx-APA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4954" y="321"/>
+        </scene>
+        <!--Food Diary-->
+        <scene sceneID="LZl-2X-T3P">
+            <objects>
+                <navigationController id="Cf2-K5-kh2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Food Diary" id="bX7-0M-hxa">
+                        <imageReference key="image" image="note.text" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3jF-6g-1li">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gw4-bn-T0m" kind="relationship" relationship="rootViewController" id="ZnI-lC-9SZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FVg-JL-drI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5755" y="321"/>
+        </scene>
+        <!--Barcode Scanner-->
+        <scene sceneID="N9e-e1-mkg">
+            <objects>
+                <viewController id="ME5-pn-KPY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xyD-Ib-G00">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ksx-Dn-O7R"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Barcode Scanner" id="ccL-Qh-SdG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lde-KF-gCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2146" y="1144"/>
+        </scene>
+        <!--Recipe Database-->
+        <scene sceneID="0lF-71-prq">
+            <objects>
+                <viewController id="dfx-jl-Q9d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vqd-wY-zCp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="H3q-0C-GHG"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Recipe Database" id="Lgo-4j-fKP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYJ-eo-Tg3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1294" y="1144"/>
+        </scene>
+        <!--User Profile-->
+        <scene sceneID="3vN-Ax-GSj">
+            <objects>
+                <viewController id="Jly-IH-w7j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5W8-Ko-JMd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D4m-fK-hi3"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="User Profile" id="rLZ-ph-W7v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJt-Xh-OiN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="1144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="barcode" catalog="system" width="128" height="93"/>
+        <image name="gauge" catalog="system" width="128" height="121"/>
+        <image name="list.bullet.below.rectangle" catalog="system" width="128" height="112"/>
+        <image name="note.text" catalog="system" width="128" height="106"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
