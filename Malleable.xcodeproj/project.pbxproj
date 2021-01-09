@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8BC9E125A930EE00B82E96 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */; };
+		4D8BC9E425A9310000B82E96 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BC9E325A9310000B82E96 /* NoteViewController.swift */; };
 		4DA01CE425A6A707002FFD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE325A6A707002FFD80 /* AppDelegate.swift */; };
 		4DA01CE625A6A707002FFD80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */; };
 		4DA01CE825A6A707002FFD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE725A6A707002FFD80 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		4D8BC9E325A9310000B82E96 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		4DA01CE025A6A707002FFD80 /* Malleable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malleable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA01CE325A6A707002FFD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				4DA01CE325A6A707002FFD80 /* AppDelegate.swift */,
 				4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */,
+				4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */,
+				4D8BC9E325A9310000B82E96 /* NoteViewController.swift */,
 				4DA01CE725A6A707002FFD80 /* ViewController.swift */,
 				4DA01CE925A6A707002FFD80 /* Main.storyboard */,
 				4DA01CF125A6A70A002FFD80 /* LaunchScreen.storyboard */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA01CE825A6A707002FFD80 /* ViewController.swift in Sources */,
+				4D8BC9E125A930EE00B82E96 /* EntryViewController.swift in Sources */,
 				4DA01CEE25A6A707002FFD80 /* Malleable.xcdatamodeld in Sources */,
 				4DA01CE425A6A707002FFD80 /* AppDelegate.swift in Sources */,
+				4D8BC9E425A9310000B82E96 /* NoteViewController.swift in Sources */,
 				4DA01CE625A6A707002FFD80 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
