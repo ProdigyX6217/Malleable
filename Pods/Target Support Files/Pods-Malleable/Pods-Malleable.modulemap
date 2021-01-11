@@ -1,0 +1,6 @@
+module Pods_Malleable {
+  umbrella header "Pods-Malleable-umbrella.h"
+
+  export *
+  module * { export * }
+}

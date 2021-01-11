@@ -3,12 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1246A79098480DC523535728 /* libPods-Malleable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4638F45AF313D055B60FE17 /* libPods-Malleable.a */; };
+		4D63278625AB40B7006E8848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D63278525AB40B7006E8848 /* Podfile */; };
 		4D8BC9E125A930EE00B82E96 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */; };
 		4D8BC9E425A9310000B82E96 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BC9E325A9310000B82E96 /* NoteViewController.swift */; };
+		4D8BCAD125AAAD6F00B82E96 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BCAD025AAAD6F00B82E96 /* OnboardingViewController.swift */; };
+		4D98D4AE25AC806E004D2888 /* userprofile.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D98D4AD25AC806E004D2888 /* userprofile.json */; };
 		4DA01CE425A6A707002FFD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE325A6A707002FFD80 /* AppDelegate.swift */; };
 		4DA01CE625A6A707002FFD80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */; };
 		4DA01CE825A6A707002FFD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE725A6A707002FFD80 /* ViewController.swift */; };
@@ -16,11 +20,18 @@
 		4DA01CEE25A6A707002FFD80 /* Malleable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CEC25A6A707002FFD80 /* Malleable.xcdatamodeld */; };
 		4DA01CF025A6A70A002FFD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */; };
 		4DA01CF325A6A70A002FFD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA01CF125A6A70A002FFD80 /* LaunchScreen.storyboard */; };
+		4DAE5FD325AC2660005438FD /* fooddiary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE5FCE25AC265F005438FD /* fooddiary.json */; };
+		4DAE5FD425AC2660005438FD /* barcodescanner.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE5FCF25AC265F005438FD /* barcodescanner.json */; };
+		4DAE5FD625AC2660005438FD /* recipedatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE5FD125AC265F005438FD /* recipedatabase.json */; };
+		4DAE5FD725AC2660005438FD /* caloriecounter.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE5FD225AC265F005438FD /* caloriecounter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D63278525AB40B7006E8848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		4D8BC9E325A9310000B82E96 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		4D8BCAD025AAAD6F00B82E96 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		4D98D4AD25AC806E004D2888 /* userprofile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = userprofile.json; path = ../../../../Downloads/userprofile.json; sourceTree = "<group>"; };
 		4DA01CE025A6A707002FFD80 /* Malleable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malleable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA01CE325A6A707002FFD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +41,13 @@
 		4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA01CF225A6A70A002FFD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA01CF425A6A70A002FFD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAE5FCE25AC265F005438FD /* fooddiary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fooddiary.json; path = ../../../../Downloads/fooddiary.json; sourceTree = "<group>"; };
+		4DAE5FCF25AC265F005438FD /* barcodescanner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = barcodescanner.json; path = ../../../../Downloads/barcodescanner.json; sourceTree = "<group>"; };
+		4DAE5FD125AC265F005438FD /* recipedatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipedatabase.json; path = ../../../../Downloads/recipedatabase.json; sourceTree = "<group>"; };
+		4DAE5FD225AC265F005438FD /* caloriecounter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = caloriecounter.json; path = ../../../../Downloads/caloriecounter.json; sourceTree = "<group>"; };
+		A9ABF64BEA90A570685AECB0 /* Pods-Malleable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Malleable.release.xcconfig"; path = "Target Support Files/Pods-Malleable/Pods-Malleable.release.xcconfig"; sourceTree = "<group>"; };
+		F3F1DE8DF2E787208FBF658B /* Pods-Malleable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Malleable.debug.xcconfig"; path = "Target Support Files/Pods-Malleable/Pods-Malleable.debug.xcconfig"; sourceTree = "<group>"; };
+		F4638F45AF313D055B60FE17 /* libPods-Malleable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Malleable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1246A79098480DC523535728 /* libPods-Malleable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03F74199641AE75740886735 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1DE8DF2E787208FBF658B /* Pods-Malleable.debug.xcconfig */,
+				A9ABF64BEA90A570685AECB0 /* Pods-Malleable.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4DA01CD725A6A707002FFD80 = {
 			isa = PBXGroup;
 			children = (
+				4D63278525AB40B7006E8848 /* Podfile */,
 				4DA01CE225A6A707002FFD80 /* Malleable */,
 				4DA01CE125A6A707002FFD80 /* Products */,
+				03F74199641AE75740886735 /* Pods */,
+				F4134E70E56964089598D6C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +93,13 @@
 		4DA01CE225A6A707002FFD80 /* Malleable */ = {
 			isa = PBXGroup;
 			children = (
+				4DAE5FCD25AC2643005438FD /* assets */,
 				4DA01CE325A6A707002FFD80 /* AppDelegate.swift */,
 				4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */,
+				4D8BCAD025AAAD6F00B82E96 /* OnboardingViewController.swift */,
+				4DA01CE725A6A707002FFD80 /* ViewController.swift */,
 				4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */,
 				4D8BC9E325A9310000B82E96 /* NoteViewController.swift */,
-				4DA01CE725A6A707002FFD80 /* ViewController.swift */,
 				4DA01CE925A6A707002FFD80 /* Main.storyboard */,
 				4DA01CF125A6A70A002FFD80 /* LaunchScreen.storyboard */,
 				4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */,
@@ -76,6 +109,26 @@
 			path = Malleable;
 			sourceTree = "<group>";
 		};
+		4DAE5FCD25AC2643005438FD /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				4DAE5FCF25AC265F005438FD /* barcodescanner.json */,
+				4DAE5FD225AC265F005438FD /* caloriecounter.json */,
+				4DAE5FCE25AC265F005438FD /* fooddiary.json */,
+				4DAE5FD125AC265F005438FD /* recipedatabase.json */,
+				4D98D4AD25AC806E004D2888 /* userprofile.json */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		F4134E70E56964089598D6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4638F45AF313D055B60FE17 /* libPods-Malleable.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA01CF725A6A70A002FFD80 /* Build configuration list for PBXNativeTarget "Malleable" */;
 			buildPhases = (
+				D7FA7D514DC7B2C43315B87D /* [CP] Check Pods Manifest.lock */,
 				4DA01CDC25A6A707002FFD80 /* Sources */,
 				4DA01CDD25A6A707002FFD80 /* Frameworks */,
 				4DA01CDE25A6A707002FFD80 /* Resources */,
@@ -111,7 +165,7 @@
 				};
 			};
 			buildConfigurationList = 4DA01CDB25A6A707002FFD80 /* Build configuration list for PBXProject "Malleable" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,13 +187,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAE5FD625AC2660005438FD /* recipedatabase.json in Resources */,
 				4DA01CF325A6A70A002FFD80 /* LaunchScreen.storyboard in Resources */,
+				4DAE5FD425AC2660005438FD /* barcodescanner.json in Resources */,
 				4DA01CF025A6A70A002FFD80 /* Assets.xcassets in Resources */,
+				4DAE5FD725AC2660005438FD /* caloriecounter.json in Resources */,
+				4DAE5FD325AC2660005438FD /* fooddiary.json in Resources */,
+				4D63278625AB40B7006E8848 /* Podfile in Resources */,
+				4D98D4AE25AC806E004D2888 /* userprofile.json in Resources */,
 				4DA01CEB25A6A707002FFD80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7FA7D514DC7B2C43315B87D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Malleable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DA01CDC25A6A707002FFD80 /* Sources */ = {
@@ -150,6 +235,7 @@
 				4D8BC9E125A930EE00B82E96 /* EntryViewController.swift in Sources */,
 				4DA01CEE25A6A707002FFD80 /* Malleable.xcdatamodeld in Sources */,
 				4DA01CE425A6A707002FFD80 /* AppDelegate.swift in Sources */,
+				4D8BCAD125AAAD6F00B82E96 /* OnboardingViewController.swift in Sources */,
 				4D8BC9E425A9310000B82E96 /* NoteViewController.swift in Sources */,
 				4DA01CE625A6A707002FFD80 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +381,7 @@
 		};
 		4DA01CF825A6A70A002FFD80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F1DE8DF2E787208FBF658B /* Pods-Malleable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +401,7 @@
 		};
 		4DA01CF925A6A70A002FFD80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9ABF64BEA90A570685AECB0 /* Pods-Malleable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
