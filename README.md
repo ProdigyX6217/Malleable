@@ -31,13 +31,9 @@ The following features have not yet been implemented:
 * [ ] Barcode Scanner.
 * [ ] User Profile.
 
-## Media Walkthrough
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-![Wireframes](downloads/wireframe.jpg)
-
-![App Icon](Downloads/change.png)
 
 Video found at: (https://imgur.com/a/cuwQWP9)
 
