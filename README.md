@@ -35,9 +35,9 @@ The following features have not yet been implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Wireframes](wireframe.jpg)
+![Wireframes](Downloads/wireframe.jpg)
 
-![App Icon](Malleable.png)
+![App Icon](Downloads/change.png)
 
 Video found at: (https://imgur.com/a/cuwQWP9)
 
