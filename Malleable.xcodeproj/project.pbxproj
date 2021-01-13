@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1246A79098480DC523535728 /* libPods-Malleable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4638F45AF313D055B60FE17 /* libPods-Malleable.a */; };
+		4D2CA7E525AE0C3200156653 /* Food_and_Recipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CA7E325AE0C3100156653 /* Food_and_Recipe.xcdatamodeld */; };
+		4D34652025ADEF2300927730 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34651F25ADEF2200927730 /* Recipe.swift */; };
+		4D34652725ADEF9900927730 /* AutoCompleteSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34652625ADEF9900927730 /* AutoCompleteSearchResponse.swift */; };
+		4D34652D25ADEFAF00927730 /* SearchResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34652C25ADEFAF00927730 /* SearchResultResponse.swift */; };
+		4D34653025ADEFBE00927730 /* SearchedRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34652F25ADEFBE00927730 /* SearchedRecipes.swift */; };
+		4D34653325ADF02500927730 /* SpoonacularClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34653225ADF02500927730 /* SpoonacularClient.swift */; };
+		4D34653725ADF0F800927730 /* RecipeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34653625ADF0F800927730 /* RecipeSearchCell.swift */; };
+		4D34653D25ADF10900927730 /* CustomRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34653C25ADF10900927730 /* CustomRecipeCell.swift */; };
+		4D34654425ADF12D00927730 /* CustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34654325ADF12D00927730 /* CustomHeaderCell.swift */; };
+		4D34654A25ADF22300927730 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34654925ADF22300927730 /* DetailViewController.swift */; };
+		4D34654D25ADF27F00927730 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34654C25ADF27F00927730 /* InstructionsViewController.swift */; };
+		4D34655025ADF28F00927730 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34654F25ADF28F00927730 /* SearchResultsViewController.swift */; };
+		4D34655325ADF2DE00927730 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34655225ADF2DE00927730 /* SearchViewController.swift */; };
+		4D34657325ADFB5500927730 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34657225ADFB5500927730 /* Extension + UIViewController.swift */; };
+		4D34657725ADFB6700927730 /* Extension + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34657625ADFB6700927730 /* Extension + UITableView.swift */; };
 		4D63278625AB40B7006E8848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D63278525AB40B7006E8848 /* Podfile */; };
 		4D8BC9E125A930EE00B82E96 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */; };
 		4D8BC9E425A9310000B82E96 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BC9E325A9310000B82E96 /* NoteViewController.swift */; };
@@ -17,7 +32,6 @@
 		4DA01CE625A6A707002FFD80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */; };
 		4DA01CE825A6A707002FFD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CE725A6A707002FFD80 /* ViewController.swift */; };
 		4DA01CEB25A6A707002FFD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA01CE925A6A707002FFD80 /* Main.storyboard */; };
-		4DA01CEE25A6A707002FFD80 /* Malleable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DA01CEC25A6A707002FFD80 /* Malleable.xcdatamodeld */; };
 		4DA01CF025A6A70A002FFD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */; };
 		4DA01CF325A6A70A002FFD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA01CF125A6A70A002FFD80 /* LaunchScreen.storyboard */; };
 		4DAE5FD325AC2660005438FD /* fooddiary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE5FCE25AC265F005438FD /* fooddiary.json */; };
@@ -27,6 +41,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2CA7E425AE0C3100156653 /* Food_and_Recipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_and_Recipe.xcdatamodel; sourceTree = "<group>"; };
+		4D34651F25ADEF2200927730 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		4D34652625ADEF9900927730 /* AutoCompleteSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteSearchResponse.swift; sourceTree = "<group>"; };
+		4D34652C25ADEFAF00927730 /* SearchResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultResponse.swift; sourceTree = "<group>"; };
+		4D34652F25ADEFBE00927730 /* SearchedRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedRecipes.swift; sourceTree = "<group>"; };
+		4D34653225ADF02500927730 /* SpoonacularClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularClient.swift; sourceTree = "<group>"; };
+		4D34653625ADF0F800927730 /* RecipeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchCell.swift; sourceTree = "<group>"; };
+		4D34653C25ADF10900927730 /* CustomRecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRecipeCell.swift; sourceTree = "<group>"; };
+		4D34654325ADF12D00927730 /* CustomHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderCell.swift; sourceTree = "<group>"; };
+		4D34654925ADF22300927730 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4D34654C25ADF27F00927730 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		4D34654F25ADF28F00927730 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		4D34655225ADF2DE00927730 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4D34657225ADFB5500927730 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
+		4D34657625ADFB6700927730 /* Extension + UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITableView.swift"; sourceTree = "<group>"; };
 		4D63278525AB40B7006E8848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D8BC9E025A930EE00B82E96 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		4D8BC9E325A9310000B82E96 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +66,6 @@
 		4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4DA01CE725A6A707002FFD80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DA01CEA25A6A707002FFD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DA01CED25A6A707002FFD80 /* Malleable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Malleable.xcdatamodel; sourceTree = "<group>"; };
 		4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA01CF225A6A70A002FFD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA01CF425A6A70A002FFD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +99,65 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4D34651E25ADEEB100927730 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D34651F25ADEF2200927730 /* Recipe.swift */,
+				4D2CA7E325AE0C3100156653 /* Food_and_Recipe.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D34652325ADEF4200927730 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4D34652525ADEF6900927730 /* Responses */,
+				4D34652425ADEF6200927730 /* Spoonacular Client */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4D34652425ADEF6200927730 /* Spoonacular Client */ = {
+			isa = PBXGroup;
+			children = (
+				4D34653225ADF02500927730 /* SpoonacularClient.swift */,
+			);
+			path = "Spoonacular Client";
+			sourceTree = "<group>";
+		};
+		4D34652525ADEF6900927730 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				4D34652625ADEF9900927730 /* AutoCompleteSearchResponse.swift */,
+				4D34652C25ADEFAF00927730 /* SearchResultResponse.swift */,
+				4D34652F25ADEFBE00927730 /* SearchedRecipes.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		4D34653525ADF0C300927730 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D34653625ADF0F800927730 /* RecipeSearchCell.swift */,
+				4D34653C25ADF10900927730 /* CustomRecipeCell.swift */,
+				4D34654325ADF12D00927730 /* CustomHeaderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D34655925ADF42D00927730 /* Recipe Database */ = {
+			isa = PBXGroup;
+			children = (
+				4D34655225ADF2DE00927730 /* SearchViewController.swift */,
+				4D34654925ADF22300927730 /* DetailViewController.swift */,
+				4D34654C25ADF27F00927730 /* InstructionsViewController.swift */,
+				4D34654F25ADF28F00927730 /* SearchResultsViewController.swift */,
+				4D34657225ADFB5500927730 /* Extension + UIViewController.swift */,
+				4D34657625ADFB6700927730 /* Extension + UITableView.swift */,
+			);
+			path = "Recipe Database";
+			sourceTree = "<group>";
+		};
 		4DA01CD725A6A707002FFD80 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +180,10 @@
 		4DA01CE225A6A707002FFD80 /* Malleable */ = {
 			isa = PBXGroup;
 			children = (
+				4D34652325ADEF4200927730 /* Networking */,
+				4D34651E25ADEEB100927730 /* Model */,
+				4D34653525ADF0C300927730 /* View */,
+				4D34655925ADF42D00927730 /* Recipe Database */,
 				4DAE5FCD25AC2643005438FD /* assets */,
 				4DA01CE325A6A707002FFD80 /* AppDelegate.swift */,
 				4DA01CE525A6A707002FFD80 /* SceneDelegate.swift */,
@@ -104,7 +195,6 @@
 				4DA01CF125A6A70A002FFD80 /* LaunchScreen.storyboard */,
 				4DA01CEF25A6A70A002FFD80 /* Assets.xcassets */,
 				4DA01CF425A6A70A002FFD80 /* Info.plist */,
-				4DA01CEC25A6A707002FFD80 /* Malleable.xcdatamodeld */,
 			);
 			path = Malleable;
 			sourceTree = "<group>";
@@ -231,13 +321,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D34653325ADF02500927730 /* SpoonacularClient.swift in Sources */,
+				4D34655325ADF2DE00927730 /* SearchViewController.swift in Sources */,
+				4D34654A25ADF22300927730 /* DetailViewController.swift in Sources */,
 				4DA01CE825A6A707002FFD80 /* ViewController.swift in Sources */,
+				4D34653D25ADF10900927730 /* CustomRecipeCell.swift in Sources */,
+				4D34652725ADEF9900927730 /* AutoCompleteSearchResponse.swift in Sources */,
 				4D8BC9E125A930EE00B82E96 /* EntryViewController.swift in Sources */,
-				4DA01CEE25A6A707002FFD80 /* Malleable.xcdatamodeld in Sources */,
+				4D34653725ADF0F800927730 /* RecipeSearchCell.swift in Sources */,
+				4D2CA7E525AE0C3200156653 /* Food_and_Recipe.xcdatamodeld in Sources */,
+				4D34653025ADEFBE00927730 /* SearchedRecipes.swift in Sources */,
+				4D34652D25ADEFAF00927730 /* SearchResultResponse.swift in Sources */,
+				4D34657325ADFB5500927730 /* Extension + UIViewController.swift in Sources */,
 				4DA01CE425A6A707002FFD80 /* AppDelegate.swift in Sources */,
+				4D34655025ADF28F00927730 /* SearchResultsViewController.swift in Sources */,
+				4D34654D25ADF27F00927730 /* InstructionsViewController.swift in Sources */,
+				4D34654425ADF12D00927730 /* CustomHeaderCell.swift in Sources */,
 				4D8BCAD125AAAD6F00B82E96 /* OnboardingViewController.swift in Sources */,
 				4D8BC9E425A9310000B82E96 /* NoteViewController.swift in Sources */,
 				4DA01CE625A6A707002FFD80 /* SceneDelegate.swift in Sources */,
+				4D34652025ADEF2300927730 /* Recipe.swift in Sources */,
+				4D34657725ADFB6700927730 /* Extension + UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,13 +547,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4DA01CEC25A6A707002FFD80 /* Malleable.xcdatamodeld */ = {
+		4D2CA7E325AE0C3100156653 /* Food_and_Recipe.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4DA01CED25A6A707002FFD80 /* Malleable.xcdatamodel */,
+				4D2CA7E425AE0C3100156653 /* Food_and_Recipe.xcdatamodel */,
 			);
-			currentVersion = 4DA01CED25A6A707002FFD80 /* Malleable.xcdatamodel */;
-			path = Malleable.xcdatamodeld;
+			currentVersion = 4D2CA7E425AE0C3100156653 /* Food_and_Recipe.xcdatamodel */;
+			name = Food_and_Recipe.xcdatamodeld;
+			path = "../../../Food-and-Recipe/Food and Recipe/Model/Food_and_Recipe.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

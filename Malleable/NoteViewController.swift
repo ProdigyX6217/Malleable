@@ -20,7 +20,6 @@ class NoteViewController: UIViewController {
         super.viewDidLoad()
         titleLabel.text = noteTitle
         noteLabel.text = note
-        
     }
     
 

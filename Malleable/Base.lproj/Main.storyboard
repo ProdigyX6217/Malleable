@@ -210,17 +210,17 @@
             </objects>
             <point key="canvasLocation" x="-2145" y="294"/>
         </scene>
-        <!--Recipe Database-->
+        <!--Search-->
         <scene sceneID="GPg-uZ-fbh">
             <objects>
                 <navigationController id="0Hr-fS-sC9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Recipe Database" image="list.bullet.below.rectangle" catalog="system" id="pvB-5z-gUm"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="list.bullet.below.rectangle" catalog="system" id="pvB-5z-gUm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="W8p-Rv-RAn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="dfx-jl-Q9d" kind="relationship" relationship="rootViewController" id="Ioz-FW-5km"/>
+                        <segue destination="dfx-jl-Q9d" kind="relationship" relationship="rootViewController" id="rdD-9e-QbS"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szg-ro-wpd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -443,10 +443,10 @@
             </objects>
             <point key="canvasLocation" x="-2146" y="1144"/>
         </scene>
-        <!--Recipe Database-->
+        <!--SearchViewController-->
         <scene sceneID="0lF-71-prq">
             <objects>
-                <viewController id="dfx-jl-Q9d" sceneMemberID="viewController">
+                <viewController id="dfx-jl-Q9d" userLabel="SearchViewController" customClass="SearchViewController" customModule="Malleable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vqd-wY-zCp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
