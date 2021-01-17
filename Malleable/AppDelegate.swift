@@ -23,21 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        homeNC.tabBarItem.title = "Home"
 //        homeNC.tabBarItem.image = UIImage(named: "home")
         
-        let searchVC = SearchViewController()
-        let searchNC = UINavigationController(rootViewController: searchVC)
-        searchNC.tabBarItem.title = "Recipe"
-        searchNC.tabBarItem.image = UIImage(named: "recipe")
-        
 //        let savedVC = SavedViewController()
 //        let savedNC = UINavigationController(rootViewController: savedVC)
 //        savedNC.tabBarItem.title = "Saved"
 //        savedNC.tabBarItem.image = UIImage(named: "save")
-        
-        let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [searchNC]
-        
-        window?.rootViewController = tabBarController
-        window?.makeKeyAndVisible()
         
         return true
     }
